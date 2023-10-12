@@ -58,9 +58,9 @@ Solo a questo punto sarà utile passare alla lettura della lista da un file JSON
             <div class="container">
                 <div class="row g-5">
                     <div class="col-4 mb-3" v-for="disc in records">
-                        <div class="card bg-secondary text-white text-center p-2 h-100">
+                        <div class=" p-2 card text-white text-center bg-secondary ">
                             <div class="card-img-top">
-                                <img class="img-fluid" :src="disc.poster" alt="">
+                                <img class="w-100" :src="disc.poster" alt="">
                             </div>
                             <div class="card-body  px-0">
                                 <h5 class="text-warning">{{disc.title}}</h5>
