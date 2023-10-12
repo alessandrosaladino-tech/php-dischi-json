@@ -63,7 +63,7 @@ Solo a questo punto sarà utile passare alla lettura della lista da un file JSON
                                 <img class="w-100" :src="disc.poster" alt="">
                             </div>
                             <div class="card-body  px-0">
-                                <h5 class="text-warning">{{disc.title}}</h5>
+                                <h5>{{disc.title}}</h5>
                                 <p>{{disc.author}}</p>
                                 <small>{{disc.year}}</small>
                             </div>
